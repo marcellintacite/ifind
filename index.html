@@ -3,13 +3,45 @@
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" type="text/css" href="ressources/css/style.css">
-          <link rel="stylesheet" type="text/css" href="ressources/font/all.css">
+          <link rel="stylesheet" type="text/css" href="ressources/font/css/all.css">
         </head>
         <body>
+             <!--bar de navigation-->
            <div class="container">
                 <nav>
-                     
+                     <img src="ressources/img/logo.png">
+                     <ul>
+                          <li><a href="index.html">Accueil</a></li>
+                          <li><a href="index.html">Connexion</a></li>
+                          <li><a href="index.html">A propos</a></li>
+                     </ul>
                 </nav>
+                <!--contenu du site web-->
+                <section class="main">
+                    <div class="left">
+                         <h1>Avez-vous perdu un frère, une soeur ou une famille pendant les moment
+                              des guerres, volcans,...? </h1>
+                         <p>Inscrivez-vous et retrouvez vos amis, frères, soeurs perdu.</p>
+                         <button type="submit" class="btn_submit">Connectez-vous</button></br><span>ou</span></br>
+                         <input type="text" placeholder="Tapez le nom de la personne">
+                         <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                    <div class="right">
+                         <div class="form">
+                              <h1>Inscrivez-vous ici</h1>
+                              <p>Veuillez completer tous les champs pour vous inscrire</p>
+                              <form method="POST" action="">
+                                   <input type="text" name="nom_complet" placeholder="Votre nom complet"></br>
+                                   <input type="text" name="numPhone" placeholder="Votre numero de telephone"></br>
+                                   <input type="password" name="psw" placeholder="Votre mot de passse"></br>
+                                   <input type="password" name="vpsw" placeholder="Confirmez votre password"></br>
+                                   <button type="submit" class="btn_submite">Inscription</button>
+                              </form>
+                              <p class="compte">Avez-vous un compte?  <a href="login.html">Connectez-vous ici</a></p>
+                         </div>
+                    </div>
+               </section>
            </div>
+           <section 
         </body>
    </html>
